@@ -65,7 +65,6 @@ CREATE TABLE subscriptions_communities(
     FOREIGN KEY (communities_id) REFERENCES communities(id)
 ) COMMENT='подписки на сообщества';
 
-
 /*Вставка данных в справочник Тип медиа*/
 INSERT INTO media_types (name,created_at) VALUES
 ('photo','2023-01-18 03:54:01'),
