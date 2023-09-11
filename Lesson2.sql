@@ -23,8 +23,7 @@ INSERT INTO cities (name) VALUES
 	 ('Howeside'),
 	 ('Loweborough'),
 	 ('New Nellaside');
-
-/*------------------------------*/
+/*--------------------------------*/
 	
 /*Альбомы*/	
 DROP TABLE IF EXISTS photo_albums;
