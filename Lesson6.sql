@@ -109,7 +109,6 @@ CALL p_user_info_delete(2,@tran_result);
 -- смотрим результат
 SELECT @tran_result;
 
-
 -- Вызов функции
 SELECT vk.f_user_info_delete(3);
 ##############################################
